@@ -13,14 +13,13 @@ IT:x:1011:aman
 Finance:x:1012:rohit
 
 3. DIRECTORY PERMISSIONS
-drwxr-xr-x 6 root root    4096 Nov  3 12:35 /company
+drwxr-xr-x 6 root root    4096 Nov  3 12:41 /company
 drwxrws--- 2 root Finance 4096 Nov  3 12:30 /company/Finance
 drwxrws--- 2 root HR      4096 Nov  3 12:28 /company/HR
 drwxrws--- 2 root IT      4096 Nov  3 12:30 /company/IT
 drwxrwxrwt 2 root root    4096 Nov  3 12:32 /company/shared
 
 4. SUID FILES
-  1441804      0 -rwsr-xr-x   1 root     root            0 Nov  3 12:35 /company/testfile
 
 5. SGID DIRECTORIES
   1441794      4 drwxrws---   2 root     HR           4096 Nov  3 12:28 /company/HR
@@ -34,7 +33,6 @@ drwxrwxrwt 2 root root    4096 Nov  3 12:32 /company/shared
   1441797      0 -rw-rw-r--   1 rahul    HR              0 Nov  3 12:30 /company/HR/employee.txt
   1441798      0 -rw-rw-r--   1 aman     IT              0 Nov  3 12:30 /company/IT/it_data.txt
   1441799      0 -rw-rw-r--   1 rohit    Finance         0 Nov  3 12:30 /company/Finance/finance_data.txt
-  1441804      0 -rwsr-xr-x   1 root     root            0 Nov  3 12:35 /company/testfile
 
 AUDIT COMPLETED
 ==================================
